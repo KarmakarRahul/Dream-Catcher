@@ -31,6 +31,7 @@ const AdmissionForm = () => {
             <div className="mt-1 flex items-center">
               <input type="radio" name="gender" value="male" className="mr-2" /> Male
               <input type="radio" name="gender" value="female" className="ml-4 mr-2" /> Female
+              c
             </div>
           </div>
           <div>

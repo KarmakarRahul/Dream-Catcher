@@ -1,38 +1,40 @@
-import React from 'react';
-import '@fortawesome/fontawesome-free/css/all.min.css';
+import React from "react";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const Features = () => {
   const featuresData = [
     {
-      title: "Competitions",
+      title: "Our Speciality",
       items: [
-        "Drawing Competition",
-        "Quiz Competition",
-        "Well Trained Teachers / Staff",
-        "Recitation Competition",
-        "Dancing Activity/Competition"
-      ]
+        "Well trained teacher staff",
+        "20 students only per class",
+        "100% English communication",
+        "Eco-friendly environment",
+        "Latest teaching & learning technology",
+        "Emphasis on holistic growth of child",
+      ],
     },
     {
       title: "Interests",
       items: [
-        "Educational Tours",
-        "20 Students Only in One Class",
-        "100% English Communication",
-        "Fancy Dress",
-        "Creative Writing"
-      ]
+        "Drawing competition",
+        "Recitation competition",
+        "Dancing activity/competition",
+        "Fancy dress competition",
+        "Quiz competition",
+        "Different occasional parties",
+      ],
     },
     {
       title: "Sport & Fitness",
       items: [
         "Indoor Games",
-        "Extra-Curricular Activities",
-        "Sports",
+        "Outdoor Games",
+        "Zumba dance",
         "Yoga Activity",
-        "Eco Friendly Environment"
-      ]
-    }
+        "Swimming pool for kids",
+      ],
+    },
   ];
 
   return (

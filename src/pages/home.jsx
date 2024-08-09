@@ -4,7 +4,7 @@ import Banner from '../components/banner';
 import Poster from '../components/poster';
 import Features from '../components/feature';
 import AboutMissionVision from '../components/aboutMissionVision';
-import ChairmanSection from '../components/chairman';
+// import ChairmanSection from '../components/chairman';
 import GallerySection from '../components/gallerySection';
 import Academics from '../components/academics';
 import Footer from '../components/footer';
@@ -22,7 +22,7 @@ const Admission = () => {
       <Features />
       <AboutMissionVision />
       <ProfileCard />
-      <ChairmanSection />
+      {/* <ChairmanSection /> */}
       <Academics />
       <CurriculumSection />
       <GallerySection />
