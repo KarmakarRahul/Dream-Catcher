@@ -1,15 +1,16 @@
 import React from 'react';
-import map from "../assets/map.jpg"
+import map from "../assets/map.jpg";
 
 const FooterComponent = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-white relative">
       <div className="flex justify-center space-x-6 py-4">
         <a href="#" className="text-black text-2xl"><i className="fab fa-tiktok"></i></a>
         <a href="#" className="text-black text-2xl"><i className="fab fa-facebook"></i></a>
         <a href="#" className="text-black text-2xl"><i className="fab fa-instagram"></i></a>
         <a href="#" className="text-black text-2xl"><i className="fab fa-twitter"></i></a>
       </div>
+
       <div className="bg-blue-700 text-white py-8">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 px-4">
           <div className="flex flex-col md:flex-row items-start md:items-center">
@@ -37,6 +38,13 @@ const FooterComponent = () => {
             <p className="mb-2">Samaritan Welfare Foundation:</p>
           </div>
         </div>
+      </div>
+
+      {/* Footer Bottom Right Corner - Designed by P5 Digital Solutions */}
+      <div className="absolute bottom-2 right-4 text-sm text-white">
+        <p>
+          Designed and developed by <strong>P5 Digital Solutions</strong> <span className="text-red-500">❤️</span>
+        </p>
       </div>
     </div>
   );
