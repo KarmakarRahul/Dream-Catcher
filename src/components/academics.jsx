@@ -26,7 +26,7 @@ const ChairmanAndAcademics = () => {
               <p className="text-lg text-gray-600">Play, Nursery, LKG & UKG</p>
             </div>
             <div className="flex-1">
-              <h3 className="text-xl font-bold mb-2">Medium(s) of Instruction</h3>
+              <h3 className="text-xl font-bold mb-2">Medium of Instruction</h3>
               <p className="text-lg text-gray-600">English</p>
             </div>
           </div>

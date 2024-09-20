@@ -6,12 +6,13 @@ const Features = () => {
     {
       title: "Our Speciality",
       items: [
-        "Well trained teacher staff",
+        "Well trained teachers & staffs",
         "20 students only per class",
         "100% English communication",
         "Eco-friendly environment",
         "Latest teaching & learning technology",
         "Emphasis on holistic growth of child",
+        "CCTV Surveillance"
       ],
     },
     {
@@ -22,7 +23,7 @@ const Features = () => {
         "Dancing activity/competition",
         "Fancy dress competition",
         "Quiz competition",
-        "Different occasional parties",
+        "Different events celebrations",
       ],
     },
     {
