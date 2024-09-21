@@ -18,22 +18,22 @@ const FeesTable = () => {
             <tr className="hover:bg-gray-50">
               <td className="py-3 px-4 text-center border-b border-gray-300">Play</td>
               <td className="py-3 px-4 text-center border-b border-gray-300">2250</td>
-              <td className="py-3 px-4 text-center border-b border-gray-300">2024-2025</td>
+              <td className="py-3 px-4 text-center border-b border-gray-300">2025-2026</td>
             </tr>
             <tr className="hover:bg-gray-50">
               <td className="py-3 px-4 text-center border-b border-gray-300">Nursery</td>
               <td className="py-3 px-4 text-center border-b border-gray-300">2250</td>
-              <td className="py-3 px-4 text-center border-b border-gray-300">2024-2025</td>
+              <td className="py-3 px-4 text-center border-b border-gray-300">2025-2026</td>
             </tr>
             <tr className="hover:bg-gray-50">
               <td className="py-3 px-4 text-center border-b border-gray-300">LKG</td>
               <td className="py-3 px-4 text-center border-b border-gray-300">2500</td>
-              <td className="py-3 px-4 text-center border-b border-gray-300">2024-2025</td>
+              <td className="py-3 px-4 text-center border-b border-gray-300">2025-2026</td>
             </tr>
             <tr className="hover:bg-gray-50">
               <td className="py-3 px-4 text-center border-gray-300 first:rounded-bl-2xl last:rounded-br-2xl">UKG</td>
               <td className="py-3 px-4 text-center border-gray-300">2500</td>
-              <td className="py-3 px-4 text-center border-gray-300">2024-2025</td>
+              <td className="py-3 px-4 text-center border-gray-300">2025-2026</td>
             </tr>
           </tbody>
         </table>

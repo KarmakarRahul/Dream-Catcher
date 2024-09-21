@@ -5,6 +5,12 @@ import Img3 from "../assets/img3.jpg";
 import Img4 from "../assets/img4.jpg";
 import Img5 from "../assets/img4.jpg";
 import Img6 from "../assets/img3.jpg";
+import Img7 from "../assets/img5.jpg";
+import Img8 from "../assets/img6.jpg";
+import Img9 from "../assets/img7.jpg";
+import Img10 from "../assets/img8.jpg";
+import Img11 from "../assets/img9.jpg";
+import Img12 from "../assets/img10.jpg";
 
 const GallerySection = () => {
   const allImages = [
@@ -17,7 +23,19 @@ const GallerySection = () => {
 
   ];
 
+  const Amenities = [
+    Img7,
+    Img8,
+    Img9,
+    Img10,
+    Img11,
+    Img12,
+
+  ];
+
   const [isExpanded, setIsExpanded] = useState(false);
+
+  const amenitiesImages = isExpanded ? Amenities : Amenities.slice(0, 4);
 
   const displayedImages = isExpanded ? allImages : allImages.slice(0, 4);
 
@@ -66,7 +84,7 @@ const GallerySection = () => {
         </h2> */}
         <p className="text-lg text-gray-600 mb-8">Amenities</p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-          {displayedImages.map((src, index) => (
+          {amenitiesImages.map((src, index) => (
             <img
               key={index}
               src={src}

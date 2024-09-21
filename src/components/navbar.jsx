@@ -22,9 +22,6 @@ const Navbar = () => {
             <li>
               <Link to="/admission" className="text-black hover:text-blue-600">Admission</Link>
             </li>
-            {/* <li>
-              <Link to="/education" className="text-black hover:text-blue-600">Education</Link>
-            </li> */}
             <li>
               <Link to="/contact" className="text-black hover:text-blue-600">Contact us</Link>
             </li>
@@ -32,12 +29,16 @@ const Navbar = () => {
         </div>
         <div className="flex items-center space-x-2">
           <i className="fas fa-phone-alt hidden md:block"></i>
-          <span className="hidden md:block">Call: +918987991194</span>
+          {/* Enable calling functionality by using tel: link */}
+          <a href="tel:+918987991194" className="hidden md:block text-black hover:text-blue-600">
+            Call: +91 8987991194
+          </a>
           <button className="md:hidden text-black focus:outline-none" onClick={toggleMenu}>
             <i className="fas fa-bars text-2xl"></i>
           </button>
         </div>
       </div>
+
       {isOpen && (
         <div className="md:hidden bg-blue-100">
           <ul className="flex flex-col items-center space-y-4 py-4">
@@ -47,16 +48,16 @@ const Navbar = () => {
             <li>
               <Link to="/admission" className="text-black hover:text-blue-600" onClick={toggleMenu}>Admission</Link>
             </li>
-            {/* <li>
-              <Link to="/education" className="text-black hover:text-blue-600" onClick={toggleMenu}>Education</Link>
-            </li> */}
             <li>
               <Link to="/contact" className="text-black hover:text-blue-600" onClick={toggleMenu}>Contact us</Link>
             </li>
             <li>
               <div className="flex items-center space-x-2">
                 <i className="fas fa-phone-alt"></i>
-                <span>Call: +918987991194</span>
+                {/* Enable calling functionality for mobile view */}
+                <a href="tel:+918987991194" className="text-black hover:text-blue-600">
+                  Call: +91 8987991194
+                </a>
               </div>
             </li>
           </ul>

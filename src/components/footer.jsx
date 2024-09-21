@@ -22,12 +22,12 @@ const FooterComponent = () => {
               </h3>
               <p className="mb-2">
                 <i className="fas fa-map-marker-alt mr-2"></i>
-                Near PTC Chowk, Canary Hill Road Hazaribagh, Jharkhand-825301
+                Lal kothi compound, Gali No 1, PTC Chowk Hazaribagh, Jharkhand-825301
               </p>
               <div className="mt-2 space-y-2">
-                <p>Principal's Email ID</p>
-                <p>School Website</p>
-                <p>Click here for Official School Brochure</p>
+                {/* <p>Principal's Email ID</p> */}
+                {/* <p>School Website</p> */}
+                {/* <p>Click here for Official School Brochure</p> */}
               </div>
             </div>
           </div>
