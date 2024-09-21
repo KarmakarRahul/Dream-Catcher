@@ -15,9 +15,12 @@ const Banner = () => {
           PTC Chowk, Hazaribag
         </a>
       </div>
+
+      {/* Blinking Text for ADMISSIONS OPEN */}
       <div className="flex flex-col sm:flex-row items-center justify-center sm:space-x-4 mb-4 sm:mb-0">
-        <span className="text-lg">2024 SCHOOL ADMISSION NOW OPEN FOR ENTRY</span>
+        <span className="text-lg font-bold blink-animation">ADMISSIONS OPEN</span>
       </div>
+
       <div className="flex items-center justify-center space-x-2">
         <a 
           href="/admission" // Replace with the actual path to your admission page

@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 } */
+
+@keyframes blinkColors {
+  0% { color: red; }
+  25% { color: blue; }
+  50% { color: green; }
+  75% { color: orange; }
+  100% { color: purple; }
+}
+
+.blink-animation {
+  animation: blinkColors 1s infinite;
+}
+
