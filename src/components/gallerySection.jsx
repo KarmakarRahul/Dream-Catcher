@@ -34,8 +34,9 @@ const GallerySection = () => {
   ];
 
   const [isExpanded, setIsExpanded] = useState(false);
+  const [isExpand, setIsExpand] = useState(false);
 
-  const amenitiesImages = isExpanded ? Amenities : Amenities.slice(0, 4);
+  const amenitiesImages = isExpand ? Amenities : Amenities.slice(0, 4);
 
   const displayedImages = isExpanded ? allImages : allImages.slice(0, 4);
 
@@ -94,17 +95,17 @@ const GallerySection = () => {
           ))}
         </div>
         <div className="text-center">
-          {!isExpanded ? (
+          {!isExpand ? (
             <button
               className="bg-yellow-400 text-black py-2 px-4 rounded-full text-lg font-bold"
-              onClick={() => setIsExpanded(true)}
+              onClick={() => setIsExpand(true)}
             >
               View All
             </button>
           ) : (
             <button
               className="bg-yellow-400 text-black py-2 px-4 rounded-full text-lg font-bold"
-              onClick={() => setIsExpanded(false)}
+              onClick={() => setIsExpand(false)}
             >
               Back
             </button>
