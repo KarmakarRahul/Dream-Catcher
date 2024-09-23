@@ -7,7 +7,7 @@ const Banner = () => {
       <div className="flex items-center justify-center space-x-2 mb-4 sm:mb-0">
         <FaMapMarkerAlt className="text-black" />
         <a 
-          href="https://www.google.com/maps/place/PTC+Chowk,+Suresh+Colony,+Hazaribagh,+Jharkhand+825301" 
+          href="https://maps.app.goo.gl/7et97vaQ8j7Eiz3R7" 
           className="text-blue-600 underline"
           target="_blank" 
           rel="noopener noreferrer"

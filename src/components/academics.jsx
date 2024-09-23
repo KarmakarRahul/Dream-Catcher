@@ -19,7 +19,7 @@ const ChairmanAndAcademics = () => {
           <h2 className="text-2xl font-bold mb-4">
             <span className="border-l-4 border-yellow-400 pl-2">Academics</span>
           </h2>
-          <p className="text-lg text-gray-600 mb-8">CBSE</p>
+          <p className="text-lg text-gray-600 mb-8">CBSE Pattern</p>
           <div className="flex flex-col md:flex-row items-start">
             <div className="flex-1 mb-8 md:mb-0 md:mr-8">
               <h3 className="text-xl font-bold mb-2">Streams Offered</h3>
