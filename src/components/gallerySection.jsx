@@ -1,25 +1,25 @@
 import React, { useState } from 'react';
-import Img1 from "../assets/img1.jpg";
-import Img2 from "../assets/img2.jpg";
-import Img3 from "../assets/img3.jpg";
-import Img4 from "../assets/img4.jpg";
-import Imgg1 from "../assets/img18.jpg";
-import Imgg2 from "../assets/img19.jpg";
-import Imgg3 from "../assets/img20.jpg";
-import Imgg4 from "../assets/img21.jpg";
-import Imgg5 from "../assets/img22.jpg";
-import Img5 from "../assets/img5.jpg";
-import Img6 from "../assets/img6.jpg";
-import Img7 from "../assets/img7.jpg";
-import Img9 from "../assets/img9.jpg";
-import Img10 from "../assets/img10.jpg";
-import Img11 from "../assets/img11.jpg";
-import Img12 from "../assets/img12.jpg";
-import Img13 from "../assets/img12.jpg";
-import Img14 from "../assets/img14.jpg";
-import Img15 from "../assets/img15.jpg";
-import Img16 from "../assets/img16.jpg";
-import Img17 from "../assets/img17.jpg";
+import Img1 from "../assets/Img1.jpg";
+import Img2 from "../assets/Img2.jpg";
+import Img3 from "../assets/Img3.jpg";
+import Img4 from "../assets/Img4.jpg";
+import Img5 from "../assets/Img5.jpg";
+import Img6 from "../assets/Img6.jpg";
+import Img7 from "../assets/Img7.jpg";
+import Img8 from "../assets/Img8.jpg";
+import Img9 from "../assets/Img9.jpg";
+import Ame1 from "../assets/ame1.jpg";
+import Ame2 from "../assets/ame2.jpg";
+import Ame3 from "../assets/ame3.jpg";
+import Ame4 from "../assets/ame4.jpg";
+import Ame5 from "../assets/ame5.jpg";
+import Ame6 from "../assets/ame6.jpg";
+import Ame7 from "../assets/ame7.jpg";
+import Ame8 from "../assets/ame8.jpg";
+import Ame9 from "../assets/ame9.jpg";
+import Ame10 from "../assets/ame10.jpg";
+import Ame11 from "../assets/ame11.jpg";
+import Ame12 from "../assets/ame12.jpg";
 
 
 const GallerySection = () => {
@@ -28,27 +28,26 @@ const GallerySection = () => {
     Img2,
     Img3,
     Img4,
-    Imgg1,
-    Imgg2,
-    Imgg3,
-    Imgg4,
-    Imgg5,
-  ];
-
-  const Amenities = [
     Img5,
     Img6,
     Img7,
+    Img8,
     Img9,
-    Img10,
-    Img11,
-    Img12,
-    Img13,
-    Img14,
-    Img15,
-    Img16,
-    Img17,
+  ];
 
+  const Amenities = [
+    Ame1,
+    Ame2,
+    Ame3,
+    Ame4,
+    Ame5,
+    Ame6,
+    Ame7,
+    Ame8,
+    Ame9,
+    Ame10,
+    Ame11,
+    Ame12,
   ];
 
   const [isExpanded, setIsExpanded] = useState(false);
