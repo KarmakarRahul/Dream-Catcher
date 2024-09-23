@@ -1,25 +1,25 @@
 import React, { useState } from 'react';
-import Img1 from "../assets/img1.JPG";
-import Img2 from "../assets/img2.JPG";
-import Img3 from "../assets/img3.JPG";
-import Img4 from "../assets/img4.JPG";
-import Imgg1 from "../assets/imgg1.JPG";
-import Imgg2 from "../assets/imgg2.JPG";
-import Imgg3 from "../assets/imgg3.JPG";
-import Imgg4 from "../assets/imgg4.JPG";
-import Imgg5 from "../assets/imgg5.JPG";
-import Img5 from "../assets/img5.JPG";
-import Img6 from "../assets/img6.JPG";
-import Img7 from "../assets/img7.JPG";
-import Img9 from "../assets/img9.JPG";
-import Img10 from "../assets/img10.JPG";
-import Img11 from "../assets/img11.JPG";
-import Img12 from "../assets/img12.JPG";
-import Img13 from "../assets/img13.JPG";
-import Img14 from "../assets/img14.JPG";
-import Img15 from "../assets/img15.JPG";
-import Img16 from "../assets/img16.JPG";
-import Img17 from "../assets/img17.JPG";
+import Img1 from "../assets/img1.jpg";
+import Img2 from "../assets/img2.jpg";
+import Img3 from "../assets/img3.jpg";
+import Img4 from "../assets/img4.jpg";
+import Imgg1 from "../assets/imgg1.jpg";
+import Imgg2 from "../assets/imgg2.jpg";
+import Imgg3 from "../assets/imgg3.jpg";
+import Imgg4 from "../assets/imgg4.jpg";
+import Imgg5 from "../assets/imgg5.jpg";
+import Img5 from "../assets/img5.jpg";
+import Img6 from "../assets/img6.jpg";
+import Img7 from "../assets/img7.jpg";
+import Img9 from "../assets/img9.jpg";
+import Img10 from "../assets/img10.jpg";
+import Img11 from "../assets/img11.jpg";
+import Img12 from "../assets/img12.jpg";
+import Img13 from "../assets/img13.jpg";
+import Img14 from "../assets/img14.jpg";
+import Img15 from "../assets/img15.jpg";
+import Img16 from "../assets/img16.jpg";
+import Img17 from "../assets/img17.jpg";
 
 
 const GallerySection = () => {
