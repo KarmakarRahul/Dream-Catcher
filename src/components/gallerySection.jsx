@@ -1,25 +1,25 @@
 import React, { useState } from 'react';
-import Img1 from "../assets/img1.jpg";
-import Img2 from "../assets/img2.jpg";
-import Img3 from "../assets/img3.jpg";
-import Img4 from "../assets/img4.jpg";
-import Img5 from "../assets/img5.jpg";
-import Img6 from "../assets/img6.jpg";
-import Img7 from "../assets/img7.jpg";
-import Img8 from "../assets/img8.jpg";
-import Img9 from "../assets/img9.jpg";
-import Ame1 from "../assets/ame1.jpg";
-import Ame2 from "../assets/ame2.jpg";
-import Ame3 from "../assets/ame3.jpg";
-import Ame4 from "../assets/ame4.jpg";
-import Ame5 from "../assets/ame5.jpg";
-import Ame6 from "../assets/ame6.jpg";
-import Ame7 from "../assets/ame7.jpg";
-import Ame8 from "../assets/ame8.jpg";
-import Ame9 from "../assets/ame9.jpg";
-import Ame10 from "../assets/ame10.jpg";
-import Ame11 from "../assets/ame11.jpg";
-import Ame12 from "../assets/ame12.jpg";
+import Img1 from "/assets/img1.jpg";
+import Img2 from "/assets/img2.jpg";
+import Img3 from "/assets/img3.jpg";
+import Img4 from "/assets/img4.jpg";
+import Img5 from "/assets/img5.jpg";
+import Img6 from "/assets/img6.jpg";
+import Img7 from "/assets/img7.jpg";
+import Img8 from "/assets/img8.jpg";
+import Img9 from "/assets/img9.jpg";
+import Ame1 from "/assets/ame1.jpg";
+import Ame2 from "/assets/ame2.jpg";
+import Ame3 from "/assets/ame3.jpg";
+import Ame4 from "/assets/ame4.jpg";
+import Ame5 from "/assets/ame5.jpg";
+import Ame6 from "/assets/ame6.jpg";
+import Ame7 from "/assets/ame7.jpg";
+import Ame8 from "/assets/ame8.jpg";
+import Ame9 from "/assets/ame9.jpg";
+import Ame10 from "/assets/ame10.jpg";
+import Ame11 from "/assets/ame11.jpg";
+import Ame12 from "/assets/ame12.jpg";
 
 
 const GallerySection = () => {

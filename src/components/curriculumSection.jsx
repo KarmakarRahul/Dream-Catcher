@@ -1,6 +1,6 @@
 import React from 'react';
 import 'tailwindcss/tailwind.css';
-import curriculum from "../assets/curriculum.jpg";
+import curriculum from "/assets/curriculum.jpg";
 const CurriculumSection = () => {
   return (
     <section className="bg-gray-100 py-12 flex justify-center items-center">

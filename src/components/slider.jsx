@@ -1,8 +1,8 @@
 import React from 'react';
 import 'tailwindcss/tailwind.css';
-import imgs1 from "../assets/imgs1.jpg";
-import imgs2 from "../assets/imgs2.jpg";
-import imgs3 from "../assets/imgs3.jpg";
+import imgs1 from "/assets/imgs1.jpg";
+import imgs2 from "/assets/imgs2.jpg";
+import imgs3 from "/assets/imgs3.jpg";
 
 const Slider = () => {
   const images = [imgs1, imgs2, imgs3];

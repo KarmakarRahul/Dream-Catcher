@@ -1,5 +1,5 @@
 import React from 'react';
-import map from "../assets/map.jpg";
+// import map from "../../public/assets/map.jpg";
 
 const FooterComponent = () => {
   // Google Maps URL for the provided address
@@ -20,7 +20,7 @@ const FooterComponent = () => {
             {/* Dynamic Map Link */}
             <a href={googleMapsUrl} target="_blank" rel="noopener noreferrer">
               <img 
-                src={map} 
+                src="/assets/map.jpg" 
                 alt="Map" 
                 className="w-32 h-24 md:w-48 md:h-36 mr-4 mb-4 md:mb-0 rounded-lg border-2 border-black shadow-lg" 
               />
