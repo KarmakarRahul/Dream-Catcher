@@ -1,8 +1,8 @@
 import React from 'react';
 import 'tailwindcss/tailwind.css';
-import profile from "../assets/profile.jpg"; // Assuming the image is locally available
-import profile2 from "../assets/profile2.jpg";
-import profile3 from "../assets/profile3.png";
+import profile from "/assets/profile.jpg"; // Assuming the image is locally available
+import profile2 from "/assets/profile2.jpg";
+import profile3 from "/assets/profile3.png";
 
 const ProfileChairmanCard = () => {
   return (

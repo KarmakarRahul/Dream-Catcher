@@ -1,5 +1,5 @@
 import React from 'react';
-import img2 from "../assets/img2.jpg";
+import img2 from "/assets/img2.jpg";
 
 const ChairmanSection = () => {
   return (

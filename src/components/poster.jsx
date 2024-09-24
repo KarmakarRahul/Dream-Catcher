@@ -1,5 +1,5 @@
 import React from 'react';
-import poster from "../assets/poster.jpg"
+import poster from "/assets/poster.jpg"
 
 const PosterComponent = () => {
   return (

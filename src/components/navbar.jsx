@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import Logo from "../assets/logo.jpg";
+import Logo from "/assets/logo.jpg";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
