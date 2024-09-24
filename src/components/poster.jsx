@@ -1,7 +1,8 @@
 import React from 'react';
-import poster from "/assets/poster.jpg"
+// import poster from "/assets/poster.jpg"
 
 const PosterComponent = () => {
+  const poster = "/assets/poster.jpg"
   return (
     <div className="w-full bg-blue-50 rounded-lg shadow-md mx-auto mb-4">
       <div className="relative w-full">
