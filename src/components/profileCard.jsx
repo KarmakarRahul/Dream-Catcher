@@ -1,10 +1,13 @@
 import React from 'react';
 import 'tailwindcss/tailwind.css';
-import profile from "/assets/profile.jpg"; // Assuming the image is locally available
-import profile2 from "/assets/profile2.jpg";
-import profile3 from "/assets/profile3.png";
+// import profile from "/assets/profile.jpg";
+// import profile2 from "/assets/profile2.jpg";
+// import profile3 from "/assets/profile3.png";
 
 const ProfileChairmanCard = () => {
+const profile = "/assets/profile.jpg";
+const profile2 = "/assets/profile2.jpg";
+const profile3 = "/assets/profile3.png";
   return (
     <div className="flex justify-center items-center py-8 bg-gray-100">
       {/* Profile Card */}
