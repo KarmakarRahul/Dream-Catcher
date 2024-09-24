@@ -205,14 +205,13 @@ const AdmissionForm = () => {
             />
           </div>
           <div>
-            <label className="block text-sm font-medium text-gray-700">School Currently studying in (with the curriculum)</label>
+            <label className="block text-sm font-medium text-gray-700">School currently studying in (Optional)</label>
             <input
               type="text"
               name="currentSchool"
               value={formData.currentSchool}
               onChange={handleChange}
               className="mt-1 block w-full border border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm px-2"
-              required
             />
           </div>
         </div>
