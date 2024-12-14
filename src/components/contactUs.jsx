@@ -143,16 +143,16 @@ const ContactForm = () => {
                     <FaPhone className="text-2xl mr-4" />
                     <div>
                         <p className="font-semibold">Call Us</p>
-                        <p>8987991194</p>
-                        <p>7488828784</p>
+                        <p>8825366150</p>
+                        <p>6200728681</p>
                     </div>
                 </div>
                 <div className="flex items-center bg-blue-500 text-white p-6 rounded-lg">
                     <FaMapMarkerAlt className="text-2xl mr-4" />
                     <div>
                         <p className="font-semibold">Our Location</p>
-                        <p>Near PTC Chowk</p>
-                        <p>Canary Hill Road, Hazaribagh</p>
+                        <p>Lal kothi compound, Gali No 1,</p>
+                        <p>PTC Chowk Hazaribagh, Jharkhand-825301</p>
                     </div>
                 </div>
                 <div className="flex items-center bg-blue-500 text-white p-6 rounded-lg">

@@ -32,7 +32,7 @@ const Navbar = () => {
           <i className="fas fa-phone-alt hidden md:block"></i>
           {/* Enable calling functionality by using tel: link */}
           <a href="tel:+918987991194" className="hidden md:block text-black hover:text-blue-600">
-            Call: +91 8987991194
+            Call: +91 8825366150
           </a>
           <button className="md:hidden text-black focus:outline-none" onClick={toggleMenu}>
             <i className="fas fa-bars text-2xl"></i>
