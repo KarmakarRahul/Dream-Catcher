@@ -29,7 +29,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="flex items-center space-x-2">
-          <i className="fas fa-phone-alt hidden md:block"></i>
+          <i className="fas fa-phone-alt rotate-90 hidden md:block"></i>
           {/* Enable calling functionality by using tel: link */}
           <a href="tel:+918987991194" className="hidden md:block text-black hover:text-blue-600">
             Call: +91 8825366150
@@ -54,7 +54,7 @@ const Navbar = () => {
             </li>
             <li>
               <div className="flex items-center space-x-2">
-                <i className="fas fa-phone-alt"></i>
+                <i className="fas fa-phone-alt rotate-180"></i>
                 {/* Enable calling functionality for mobile view */}
                 <a href="tel:+918987991194" className="text-black hover:text-blue-600">
                   Call: +91 8987991194
