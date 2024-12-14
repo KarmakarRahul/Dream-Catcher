@@ -44,9 +44,9 @@ const FooterComponent = () => {
           </div>
           <div>
             <h3 className="text-xl font-bold mb-4">Admission Open</h3>
-            <p className="mb-2">Dream Catcher Play School</p>
+            <p className="mb-2">Dream Catchers Play School</p>
             <p className="mb-2">Play, Nursery, LKG & UKG</p>
-            <p className="mb-2">Samaritan Welfare Foundation:</p>
+            <p className="mb-2">Managed by Samaritan Welfare Foundation</p>
           </div>
         </div>
       </div>
