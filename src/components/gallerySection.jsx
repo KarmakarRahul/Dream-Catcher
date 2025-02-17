@@ -28,6 +28,12 @@ const GallerySection = () => {
   const Cele4 = "/assets/cele4.jpg";
   const Cele5 = "/assets/cele5.jpg";
   const Cele6 = "/assets/cele6.jpg";
+  const Cele7 = "/assets/cele7.jpg";
+  const Cele8 = "/assets/cele8.jpg";
+  const Cele9 = "/assets/cele9.jpg";
+  const Cele10 = "/assets/cele10.jpg";
+  const Cele11 = "/assets/cele11.jpg";
+  const Cele12 = "/assets/cele12.jpg";
 
   const allImages = [
     Img1,
@@ -63,6 +69,12 @@ const GallerySection = () => {
     Cele4,
     Cele5,
     Cele6,
+    Cele7,
+    Cele8,
+    Cele9,
+    Cele10,
+    Cele11,
+    Cele12,
   ];
 
   const [isCelebrationsExpanded, setIsCelebrationsExpanded] = useState(false);
@@ -81,7 +93,7 @@ const GallerySection = () => {
           <h2 className="text-2xl font-bold mb-4">
             <span className="border-l-4 border-yellow-400 pl-2">Gallery</span>
           </h2>
-          <p className="text-lg text-gray-600 mb-8">Celebrations</p>
+          <p className="text-lg text-gray-600 mb-8">Recent Events</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             {celebrationImages.map((src, index) => (
               <img
